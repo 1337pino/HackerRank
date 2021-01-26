@@ -4,7 +4,7 @@
 
 import java.io.*;
 
-public class Solution {
+public class Solution_DayOfTheProgrammer {
 
     // Complete the dayOfProgrammer function below.
     static String dayOfProgrammer(int year) {
