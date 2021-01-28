@@ -23,8 +23,7 @@ public class Solution_EmasSupercomputer {
         // The max size needs to be odd per definition of the pluses
         if (maxSize % 2 != 1) maxSize--;
         
-        /* Search for pluses starting with the biggest possible sizes first and stopping
-            once the two biggest pluses are found */
+        // Find all of the pluses and then find the largest product of two valid pluses
         for (int i = maxSize; i > 0; i -= 2) {
             int armLength = i / 2;
             List<Integer> validLocations = new ArrayList<Integer>();
@@ -60,7 +59,18 @@ public class Solution_EmasSupercomputer {
         return biggestroduct;
     }
     
-    public static boolean verifyNoInterceptions(int plusA, int armlengthA, int plusB, int armlengthB, int gridWidth) {
+    /**
+     * Compares two pluses and verifies that they do not intersect at any point
+     * 
+     * @param plusA The first plus to compare
+     * @param armlengthA The first plus' arm length
+     * @param plusB The second plus to compare
+     * @param armlengthB The second plus' arm length
+     * @param gridWidth The width of the grid the pluses are located in
+     * @return TRUE if there are no intersections
+     */
+    public static boolean verifyNoInterceptions(int plusA, int armlengthA, int plusB, 
+            int armlengthB, int gridWidth) {
         List<Integer> plusACells = new ArrayList<Integer>();
         plusACells.add(plusA);
         fillPlusList(plusACells, armlengthA, plusA, gridWidth);
@@ -79,7 +89,16 @@ public class Solution_EmasSupercomputer {
         return true;
     }
     
-    private static void fillPlusList(List<Integer> plusList, int armLength, int plusCenter, int gridWidth) {
+    /**
+     * Updates a list of all the grid cells that the given plus occupies
+     * 
+     * @param plusList List for storying the locations of the plus
+     * @param armLength Plus' arm length
+     * @param plusCenter Cell containing the middle of the plus
+     * @param gridWidth The width of the grid the pluses are located in
+     */
+    private static void fillPlusList(List<Integer> plusList, int armLength, int plusCenter, 
+            int gridWidth) {
         for (int i = armLength; i > 0; i--) {
             // Upwards
             plusList.add(plusCenter - (i * gridWidth));
@@ -95,6 +114,16 @@ public class Solution_EmasSupercomputer {
         }
     }
     
+    /**
+     * Checks if a plus of the specified size exists at the given location
+     * 
+     * @param grid 2D array representing the grid that the pluses can exist in.  Cells contain 
+     * either a 'B' or a 'G'
+     * @param armLength Plus' arm length
+     * @param row Vertical coordinate of the center of the potential plus location
+     * @param col Horizontal coordinate of the center of the potential plus location
+     * @return True if a plus can be made in the given location without overlapping a 'B' cell
+     */
     public static boolean verifyPlus(char[][] grid, int armLength, int row, int col) {
         // Verify vertical arms
         for (int i = row - armLength; i <= row + armLength; i++) {
@@ -116,7 +145,9 @@ public class Solution_EmasSupercomputer {
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
-        //BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+        BufferedWriter bufferedWriter = new BufferedWriter(
+                new FileWriter(System.getenv("OUTPUT_PATH")));
+
         String[] nm = scanner.nextLine().split(" ");
 
         int n = Integer.parseInt(nm[0]);
@@ -133,12 +164,11 @@ public class Solution_EmasSupercomputer {
         }
 
         int result = twoPluses(grid);
-        System.out.println(result);
 
-        // bufferedWriter.write(String.valueOf(result));
-        // bufferedWriter.newLine();
+        bufferedWriter.write(String.valueOf(result));
+        bufferedWriter.newLine();
 
-        // bufferedWriter.close();
+        bufferedWriter.close();
 
         scanner.close();
     }
