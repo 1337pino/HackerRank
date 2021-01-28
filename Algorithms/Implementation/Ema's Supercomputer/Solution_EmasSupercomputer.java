@@ -7,7 +7,13 @@ import java.util.*;
 
 public class Solution_EmasSupercomputer {
 
-    // Complete the twoPluses function below.
+    /**
+     * Calculates the largest product that can be made using two pluses of only 'G' characters
+     * 
+     * @param grid 2D array representing the grid that the pluses can exist in.  Cells contain 
+     * either a 'B' or a 'G'
+     * @return the product made from the area of two pluses multiplied together
+     */
     static int twoPluses(char[][] grid) {
         HashMap<Integer, List<Integer>> plusDatabase = new HashMap<Integer, List<Integer>>();
         

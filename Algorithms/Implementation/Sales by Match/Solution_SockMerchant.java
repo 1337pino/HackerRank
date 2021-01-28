@@ -7,7 +7,14 @@ import java.util.*;
 
 public class Solution_SockMerchant {
 
-    // Complete the sockMerchant function below.
+    /**
+     * Calculates the total number of matching pairs of socks that can be made from an array of 
+     * socks
+     * 
+     * @param n Number of socks in the array
+     * @param ar Array of socks. Each element is a single sock and it's value is its color
+     * @return Number of pairs of socks across all colors of socks
+     */
     static int sockMerchant(int n, int[] ar) {
         HashMap<Integer, Integer> sockColorCount = new HashMap<Integer, Integer>();
         

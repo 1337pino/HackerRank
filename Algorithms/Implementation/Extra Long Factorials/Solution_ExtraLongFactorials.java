@@ -7,7 +7,11 @@ import java.util.*;
 
 public class Solution_ExtraLongFactorials {
 
-    // Complete the extraLongFactorials function below.
+    /**
+     * Calculates and prints the factorial of a large number
+     * 
+     * @param n Large number
+     */
     static void extraLongFactorials(int n) {
         BigInteger factorial = BigInteger.valueOf(n);
         

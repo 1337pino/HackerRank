@@ -6,7 +6,12 @@ import java.io.*;
 
 public class Solution_DayOfTheProgrammer {
 
-    // Complete the dayOfProgrammer function below.
+    /**
+     * Calculates the date the 256th day of the year will be on a given year
+     * 
+     * @param year Year between the range of 1700 to 2700, inclusively
+     * @return a String representation of the date in the format of dd.mm.yyyy
+     */
     static String dayOfProgrammer(int year) {
         String date = "";
         int[] months = new int[]{ 31, 28, 31, 30, 31, 30 , 31, 31, 30, 31, 30, 31 };
