@@ -5,7 +5,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Solution_EmasSupercomputer {
+public class EmasSupercomputer {
 
     /**
      * Calculates the largest product that can be made using two pluses of only 'G' characters

@@ -5,7 +5,7 @@
 import java.math.*;
 import java.util.*;
 
-public class Solution_ExtraLongFactorials {
+public class ExtraLongFactorials {
 
     /**
      * Calculates and prints the factorial of a large number

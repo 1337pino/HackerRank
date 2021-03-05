@@ -7,7 +7,7 @@ import java.util.*;
 import java.util.stream.*;
 import static java.util.stream.Collectors.toList;
 
-public class Solution_MatrixLayerRotation {
+public class MatrixLayerRotation {
 
     /**
      * Rotates a matrix
