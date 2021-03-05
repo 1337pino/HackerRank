@@ -4,7 +4,7 @@
 
 import java.io.*;
 
-public class Solution_DayOfTheProgrammer {
+public class DayOfTheProgrammer {
 
     /**
      * Calculates the date the 256th day of the year will be on a given year
