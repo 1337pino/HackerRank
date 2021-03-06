@@ -1,3 +1,5 @@
+package Easy;
+
 /** Sales by Match
  * https://www.hackerrank.com/challenges/sock-merchant/problem
  */
@@ -5,7 +7,7 @@
 import java.io.*;
 import java.util.*;
 
-public class SockMerchant {
+public class SalesByMatch {
 
     /**
      * Calculates the total number of matching pairs of socks that can be made from an array of 
