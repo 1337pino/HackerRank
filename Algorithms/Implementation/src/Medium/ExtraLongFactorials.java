@@ -1,8 +1,8 @@
-package Medium;
-
 /** Extra Long Factorials
  * https://www.hackerrank.com/challenges/extra-long-factorials/problem
  */
+
+package Medium;
 
 import java.math.*;
 import java.util.*;

@@ -1,8 +1,8 @@
-package Easy;
-
 /** Day of the Programmer
  * https://www.hackerrank.com/challenges/day-of-the-programmer/problem
  */
+
+package Easy;
 
 import java.io.*;
 

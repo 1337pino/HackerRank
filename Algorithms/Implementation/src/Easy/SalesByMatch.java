@@ -1,8 +1,8 @@
-package Easy;
-
 /** Sales by Match
  * https://www.hackerrank.com/challenges/sock-merchant/problem
  */
+
+package Easy;
 
 import java.io.*;
 import java.util.*;

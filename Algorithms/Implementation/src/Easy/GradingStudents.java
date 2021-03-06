@@ -1,8 +1,8 @@
-package Easy;
-
 /** Grading Students
  * https://www.hackerrank.com/challenges/grading/problem
  */
+
+ package Easy;
 
 import java.io.*;
 import java.util.*;

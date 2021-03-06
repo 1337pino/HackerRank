@@ -1,8 +1,8 @@
-package Medium;
-
 /** Ema's Supercomputer
  * https://www.hackerrank.com/challenges/two-pluses/problem
  */
+
+package Medium;
 
 import java.io.*;
 import java.util.*;

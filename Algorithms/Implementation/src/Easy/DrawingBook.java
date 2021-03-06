@@ -1,8 +1,8 @@
-package Easy;
-
 /** Drawing Book
  * https://www.hackerrank.com/challenges/drawing-book/problem
  */
+
+package Easy;
 
 import java.io.*;
 import java.util.*;
