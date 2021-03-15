@@ -9,7 +9,15 @@ import java.util.*;
 
 public class DivisibleSumPairs {
 
-    // Complete the divisibleSumPairs function below.
+    /**
+     * Given an array of integers and a positive integer k, determines the number of pairs where 
+     * the sum of the pairs is divisible by k.
+     * 
+     * @param n Length of array ar.
+     * @param k Positive integer k (1 <= k <= 100).
+     * @param ar Array of integers.
+     * @return Count of the pairs that, when summed, are divisible by k.
+     */
     static int divisibleSumPairs(int n, int k, int[] ar) {
         int divisibleSumPairCount = 0;
 
