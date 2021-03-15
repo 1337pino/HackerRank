@@ -55,8 +55,6 @@ public class MigratoryBirds {
         BufferedWriter bufferedWriter 
                 = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
-        int arrCount = Integer.parseInt(bufferedReader.readLine().trim());
-
         List<Integer> arr = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
             .map(Integer::parseInt)
             .collect(toList());
