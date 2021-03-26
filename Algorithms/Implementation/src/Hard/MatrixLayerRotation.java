@@ -2,7 +2,7 @@
  * https://www.hackerrank.com/challenges/matrix-rotation-algo/problem
  */
 
-package algorithms.implementation.hard;
+package Algorithms.Implementation.src.hard;
 
 import java.io.*;
 import java.util.*;

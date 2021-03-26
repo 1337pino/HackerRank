@@ -5,7 +5,7 @@
  * the code.
  */
 
-package algorithms.debugging.medium;
+package Algorithms.Debugging.src.medium;
 
 import java.util.*;
 

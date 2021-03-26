@@ -2,7 +2,7 @@
  * https://www.hackerrank.com/challenges/kangaroo/problem
  */
 
-package algorithms.implementation.easy;
+package Algorithms.Implementation.src.easy;
 
 import java.io.*;
 import java.util.*;

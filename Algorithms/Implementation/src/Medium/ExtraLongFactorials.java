@@ -2,7 +2,7 @@
  * https://www.hackerrank.com/challenges/extra-long-factorials/problem
  */
 
-package algorithms.implementation.medium;
+package Algorithms.Implementation.src.medium;
 
 import java.math.*;
 import java.util.*;

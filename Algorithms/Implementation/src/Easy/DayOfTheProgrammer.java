@@ -2,7 +2,7 @@
  * https://www.hackerrank.com/challenges/day-of-the-programmer/problem
  */
 
-package algorithms.implementation.easy;
+package Algorithms.Implementation.src.easy;
 
 import java.io.*;
 

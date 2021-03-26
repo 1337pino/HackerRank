@@ -2,7 +2,7 @@
  * https://www.hackerrank.com/challenges/between-two-sets/problem
  */
 
-package algorithms.implementation.easy;
+package Algorithms.Implementation.src.easy;
 
 import java.io.*;
 import java.util.*;
