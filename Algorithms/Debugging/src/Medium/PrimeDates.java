@@ -1,8 +1,11 @@
 /** Prime Dates
  * https://www.hackerrank.com/challenges/prime-date/problem
+ * 
+ * Note: You can modify at most five lines in the given code and you cannot add or remove lines to 
+ * the code.
  */
 
-package Medium;
+package algorithms.debugging.medium;
 
 import java.util.*;
 

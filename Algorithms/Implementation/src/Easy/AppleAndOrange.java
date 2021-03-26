@@ -2,7 +2,7 @@
  * https://www.hackerrank.com/challenges/apple-and-orange/problem
  */
 
-package Easy;
+package algorithms.implementation.src.easy;
 
 import java.util.*;
 

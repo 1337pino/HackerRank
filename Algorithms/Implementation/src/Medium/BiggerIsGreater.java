@@ -2,7 +2,7 @@
  * https://www.hackerrank.com/challenges/bigger-is-greater/problem
  */
 
-package Medium;
+package Algorithms.Implementation.src.medium;
 
 import java.io.*;
 import java.util.*;

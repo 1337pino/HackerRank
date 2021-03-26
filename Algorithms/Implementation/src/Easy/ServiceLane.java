@@ -2,7 +2,7 @@
  * https://www.hackerrank.com/challenges/service-lane/problem
  */
 
-package Easy;
+package algorithms.implementation.easy;
 
 import java.io.*;
 import java.util.*;

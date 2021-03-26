@@ -2,7 +2,7 @@
  * https://www.hackerrank.com/challenges/divisible-sum-pairs/problem
  */
 
-package Easy;
+package algorithms.implementation.easy;
 
 import java.io.*;
 import java.util.*;

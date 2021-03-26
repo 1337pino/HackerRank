@@ -2,7 +2,7 @@
  * https://www.hackerrank.com/challenges/two-pluses/problem
  */
 
-package Medium;
+package algorithms.implementation.medium;
 
 import java.io.*;
 import java.util.*;
