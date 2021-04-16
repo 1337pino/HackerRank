@@ -7,11 +7,7 @@
 
 package Algorithms.Debugging.src.easy;
 
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class XORStrings {
     
@@ -34,6 +30,6 @@ public class XORStrings {
         s = in.nextLine();
         t = in.nextLine();
         System.out.println(stringsXOR(s, t));
-
+        in.close();
     }
 }
